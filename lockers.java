@@ -2,7 +2,7 @@ public class lockers{
 
      public static void main(String args[]) {
       int[] lockers = new int[100];
-    //   1 open, -1 locked
+    //   -1 open, 1 locked
       for (int i=0; i<lockers.length; i++){
           lockers[i]=1;
       }
